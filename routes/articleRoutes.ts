@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getAllAreas, getArea, createArea, updateArea, deleteArea } from '../controllers/area1Controller';
+import { getAllAreas, getArea, createArea, updateArea, deleteArea } from '../controllers/articleController';
 import { checkJwt } from '../middlewares/authenticate';
 
 const router = Router();
